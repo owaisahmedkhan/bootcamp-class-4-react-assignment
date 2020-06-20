@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Class 3 React App on Surge
+name: Class 4 React Assignment on Surge
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -38,4 +38,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build bootcamp_react_owaisahmed_class3.surge.sh --token ${{ secrets.Surge_token_class_3 }}
+      run: surge ./build bootcamp_react_owaisahmed_class4.surge.sh --token ${{ secrets.Surge_token_class_4 }}
