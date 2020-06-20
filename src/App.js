@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
+import ThemeContext from '../Context/ThemeContext';
+
 import './App.css';
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +23,13 @@ function App() {
       </header>
     </div>
   );
-}
+} */
+
+const theme = 'light';
+return (
+  <ThemeContext.Provider value={theme}>
+    <div></div>
+  </ThemeContext.Provider>
+)
 
 export default App;
