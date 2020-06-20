@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Learn_State(){
+function LearnState(){
     const [islit, setlit] = React.useState(true);
     const brightness = islit ? "lit" : "dark";
     var [temp, settemp] = useState(22);
@@ -34,4 +34,4 @@ function Learn_State(){
 
 
 
-export default Learn_State;
+export default LearnState;
