@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 //import Image5 from "./images/img5.jpg";
 import './index.css';
 //import MediaCard from "./mediaCard";
-import Learn_state from "./learn_state";
+import Learn_State from "./learn_state";
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -19,7 +19,7 @@ ReactDOM.render(
   document.querySelector("#root")),
   <Gate isOpen={false} />, document.querySelector("#root")*/
 
-  <Learn_state />, document.querySelector("#root")
+  <Learn_State />, document.querySelector("#root")
 );
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
